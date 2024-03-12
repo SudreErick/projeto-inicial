@@ -2,7 +2,7 @@
 
  ## FRONT-END ENGINNERING
 
- ### Prof Alexandre Carlos  -alecarlosjesus
+ ### ERICK SUDRÉ  -SudreErick
 
  ## TURMA: 1TDSPL
 
