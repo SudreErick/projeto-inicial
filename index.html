@@ -1,27 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXEMPLO</title>
+    <title>PÁGINA BÁSICA</title>
 </head>
 <body>
     
     <div class="container">
 
-        <header>
+        <header class="cabecalho">
+            <h1 style="text-align: center;font-family:Verdana, Geneva, Tahoma, sans-serif;
+            "> Minha Pagina</h1>
 
-            <h1 style="text-align: center;font-family:Verdana, Geneva, Tahoma, sans-serif;"> Minha Pagina</h1>
-
-            <nav>
-                
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
             </nav>
-
+            
         </header>
+        <section class="conteúdo">
+            <div>
+                <h2> Sobre mim... </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptate 
+                    laboriosam illo quibusdam deleniti dolores corporis, aliquam 
+                    pariatur ullam accusamus dicta excepturi odio eum at 
+                    tempora nesciunt repellat ab eaque.</p>
+            </div>
+            <div>
+                <h2>Skills</h2>
+                <p> JAVA, PYTHON, JAVASCRIPT, HTML, CSS</p>
+            </div>
+            <h2>Portifólio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia pariatur 
+                alias necessitatibus eveniet repudiandae facilis, 
+                ea doloremque blanditiis eum numquam.</p>
+                <span>Algum projeto aqui. <a href="#">Projeto1</a></span>
+        </section>
+
+        <footer class="Rodape">
+            <nav>
+                <ul>
+                    <li> <a href="https://www.fiap.com.br" target="_blank"> FIAP </a></li>
+                    <li> <a href="https://www.google.com.br" target="_self"> GOOGLe </a></li>
+                    <li> <a href="https://github.com" target="_blank"> GITHUB </a></li>
+                </ul>
+            </nav>
+            <p>Todos os direitos reservados - 2024 </p>
+        </footer>
     </div>
-    
-    
-
-
 </body>
 </html>

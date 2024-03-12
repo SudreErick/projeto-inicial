@@ -10,6 +10,7 @@
 
  - Nome :
  - Git :
- - Instituição De Ensino
+ - Instituição De Ensino:
+ 
  ...
  
